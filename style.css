@@ -1,0 +1,30 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+header{
+     /* padding: 100px; */
+}
+
+header div button{
+   
+    width: 50px ;
+    height:20px;
+    border: none;
+    outline: none;
+    background: #4191fd;
+    border-radius: 0.5rem;
+}
+header div button:focus{
+
+    background: #2d6bbb;
+
+}
+
+#text{
+    color: #4191fd;
+    padding-left: 80px;
+}
